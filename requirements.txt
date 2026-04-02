@@ -2,3 +2,4 @@ torch
 torchvision
 standard-imghdr
 icrawler
+opencv-python
