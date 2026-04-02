@@ -1,2 +1,4 @@
 torch
 torchvision
+standard-imghdr
+icrawler
