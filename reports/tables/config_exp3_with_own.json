@@ -1,0 +1,10 @@
+{
+  "run_name": "exp3_with_own",
+  "model_name": "baseline_cnn",
+  "epochs_max": 50,
+  "epochs_run": 48,
+  "batch_size": 64,
+  "best_val_accuracy": 0.8001999855041504,
+  "training_size": 45328,
+  "validation_size": 5000
+}
