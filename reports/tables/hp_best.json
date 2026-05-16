@@ -1,0 +1,8 @@
+{
+  "trial": 1.0,
+  "learning_rate": 0.001,
+  "dropout": 0.3,
+  "best_val_accuracy": 0.6700000166893005,
+  "final_train_accuracy": 0.7165777683258057,
+  "final_val_accuracy": 0.6628000140190125
+}

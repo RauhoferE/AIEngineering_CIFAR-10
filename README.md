@@ -1,1 +1,0 @@
-# AIEngineering_CIFAR-10

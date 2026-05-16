@@ -1,0 +1,11 @@
+class,cifar_train,cifar_test,own
+airplane,4527,1000,37
+automobile,4458,1000,55
+bird,4465,1000,68
+cat,4518,1000,78
+deer,4477,1000,68
+dog,4527,1000,53
+frog,4498,1000,78
+horse,4531,1000,55
+ship,4482,1000,26
+truck,4517,1000,29

@@ -1,0 +1,10 @@
+{
+  "run_name": "exp5_transfer",
+  "model_name": "resnet50_transfer",
+  "epochs_max": 50,
+  "epochs_run": 40,
+  "batch_size": 64,
+  "best_val_accuracy": 0.8550000190734863,
+  "training_size": 45000,
+  "validation_size": 5000
+}

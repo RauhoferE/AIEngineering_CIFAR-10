@@ -1,5 +1,15 @@
-torch
-torchvision
-standard-imghdr
-icrawler
-opencv-python
+# =============================================================================
+# Python packages required for this project.
+# Versions are pinned to match the university AI server guide
+# (2026_AI_Engineering_Working-on-AI-Server.pdf, slide 11).
+# Install with:    pip install -r requirements.txt
+# =============================================================================
+
+tensorflow==2.20.0      # deep learning framework (includes Keras 3)
+keras==3.12.0           # neural network API used by TensorFlow
+matplotlib==3.9.2       # plotting (training curves, confusion matrix, Grad-CAM)
+numpy==1.26.4           # numerical arrays
+scikit-learn==1.5.2     # metrics (classification_report, confusion_matrix)
+pillow==10.4.0          # image loading (JPEG/PNG)
+pandas==2.2.3           # CSV tables for experiment results
+jupyterlab>=4.0         # to open and run cifar_vision_project.ipynb
