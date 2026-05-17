@@ -8,7 +8,8 @@
 tensorflow==2.20.0      # deep learning framework (includes Keras 3)
 keras==3.12.0           # neural network API used by TensorFlow
 matplotlib==3.9.2       # plotting (training curves, confusion matrix, Grad-CAM)
-numpy==1.26.4           # numerical arrays
+numpy==1.26.4; python_version < "3.13"     # numerical arrays on Python 3.10-3.12
+numpy>=2.1.0,<3; python_version >= "3.13"  # Python 3.13 requires NumPy 2.x via ml-dtypes
 scikit-learn==1.5.2     # metrics (classification_report, confusion_matrix)
 pillow==10.4.0          # image loading (JPEG/PNG)
 pandas==2.2.3           # CSV tables for experiment results
